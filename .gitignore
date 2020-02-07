@@ -1,0 +1,16 @@
+# Проигнорируйте файлы, находящиеся в подкаталоге tmp и файлы, заканчивающиеся суффиксами _old, _backup; #
+
+tmp/
+*_old.*
+*_backup.*
+
+
+# Убедитесь, что также проигнорированы файлы (Thumbs.db и .DS_Store); #
+
+Thumbs.db*
+.DS_Store
+
+
+# Во второй задаче в репозиторий попали ненужные файлы: index.html_old и NeuroStartUp.png_backup #
+index.html_old
+NeuroStartUp.png_backup
